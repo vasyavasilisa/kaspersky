@@ -1,0 +1,11 @@
+{
+  "email": {
+    "password": "testa1qa",
+    "host": "pop.mail.ru",
+    "port": 587
+  },
+  "message": {
+    "subjectTemplate": "Kaspersky ",
+    "maxWaitSec": 120
+  }
+}

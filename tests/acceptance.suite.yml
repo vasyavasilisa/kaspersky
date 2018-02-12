@@ -1,0 +1,25 @@
+# Codeception Test Suite Configuration
+#
+# Suite for acceptance tests.
+# Perform tests in browser using the WebDriver or PhpBrowser.
+# If you need both WebDriver and PHPBrowser tests - create a separate suite.
+
+actor: AcceptanceTester
+modules:
+    enabled:
+        - WebDriver
+        - Helper\Acceptance
+        - Asserts
+        - \Helper\Unit
+    config:
+        WebDriver:
+            url: 'https://my.kaspersky.com'
+            browser: 'chrome'
+            wait: 30
+            restart: true
+            window_size: maximize
+gherkin:
+    contexts:
+        default:
+            - AcceptanceTester
+            - KasperskiTester
