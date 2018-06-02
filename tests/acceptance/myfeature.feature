@@ -6,10 +6,6 @@ Feature:
 
   Scenario Outline: rigth links will be sended for all products
     Given i am authorised as "vasilisa_test_a1qa@mail.ru" "TESTa1qa"
-    When i am on downloads tab
-    And i try to download product "<product>" for "<os>"
-    And i want to send it by email
-    Then i should receive a message with right link
 
   Examples:
   | os | product |
