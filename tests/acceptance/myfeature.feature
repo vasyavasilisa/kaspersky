@@ -15,17 +15,6 @@ Feature:
   | os | product |
   | Windows | Total Security |
   | Windows | Anti-Virus |
-  | Windows | Internet Security |
-  | Windows | Safe Kids |
-  | Windows | Password Manager |
-  | Mac | Internet Security |
-  | Mac | Password Manager |
-  | Mac | Safe Kids |
-  | Android | Internet Security |
-  | Android | Safe Kids |
-  | Android | Password Manager |
-  | iOS | Safe Kids |
-  | iOS | Password Manager |
 
 
 
